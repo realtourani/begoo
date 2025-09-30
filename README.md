@@ -11,9 +11,6 @@
 Begoo is a powerful Chrome extension that brings seamless and intelligent Persian voice typing to Google Docs. Tired of long typing sessions? With Begoo, just speak and let your words flow onto the page. It's the ideal tool for writers, students, and anyone looking to boost their writing productivity in Persian.
 
 
-
-![Begoo in Action](https://#)
-
 ## 🚀 Key Features
 
 *   **🎙️ Accurate Speech Recognition:** Leverages the Web Speech API to transcribe your spoken Persian with high accuracy.
@@ -31,9 +28,6 @@ The easiest way to install Begoo is from the Chrome Web Store.
 3.  The extension will be added to your browser!
 
 ## 💡 How to Use
-
-
-![Begoo Popup](https://#) <!--- <<< REPLACE '#' WITH THE LINK TO YOUR POPUP SCREENSHOT --->
 
 1.  Open a **Google Docs** document.
 2.  Click the **Begoo** extension icon in your browser's toolbar.
