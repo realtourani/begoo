@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "بگو - تایپ صوتی فارسی",
+  "name": "بگو - تبدیل صوت به متن فارسی",
   "version": "1.0.0",
   "description": "تبدیل گفتار فارسی به متن در Google Docs",
   
@@ -28,7 +28,7 @@
   
   "action": {
     "default_popup": "popup.html",
-    "default_title": "بگو - تایپ صوتی فارسی"
+    "default_title": "بگو - تبدیل صوت به متن فارسی"
   },
   
   "commands": {
