@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "بگو - تایپ صوتی فارسی",
+  "version": "1.0.0",
+  "description": "تبدیل گفتار فارسی به متن در Google Docs",
+  
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  
+  "host_permissions": [
+    "https://docs.google.com/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/document/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "بگو - تایپ صوتی فارسی"
+  },
+  
+  "commands": {
+    "toggle-recording": {
+      "suggested_key": {
+        "default": "Alt+Shift+V"
+      },
+      "description": "شروع/توقف ضبط صدا"
+    }
+  },
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
