@@ -11,9 +11,6 @@
 Begoo is a powerful Chrome extension that brings seamless and intelligent Persian voice typing to Google Docs. Tired of long typing sessions? With Begoo, just speak and let your words flow onto the page. It's the ideal tool for writers, students, and anyone looking to boost their writing productivity in Persian.
 
 
-
-![Begoo in Action](https://#)
-
 ## 🚀 Key Features
 
 *   **🎙️ Accurate Speech Recognition:** Leverages the Web Speech API to transcribe your spoken Persian with high accuracy.
@@ -33,7 +30,12 @@ The easiest way to install Begoo is from the Chrome Web Store.
 ## 💡 How to Use
 
 
-![Begoo Popup](https://#) <!--- <<< REPLACE '#' WITH THE LINK TO YOUR POPUP SCREENSHOT --->
+<div align="center">
+
+https://github.com/user-attachments/assets/d48f216c-65bf-4ef0-a153-c5db8b5b16d1
+<p><i>Real-time Persian speech-to-text transcription in Google Docs.</i></p>
+
+</div>
 
 1.  Open a **Google Docs** document.
 2.  Click the **Begoo** extension icon in your browser's toolbar.
@@ -48,7 +50,7 @@ Interested in contributing to Begoo? That's great! Follow these steps to get the
 
 1.  Clone this repository:
     ```bash
-    git clone https://github.com/your-username/begoo-extension.git
+    git clone https://github.com/realtourani/Begoo.git
     ```
 2.  Open Chrome and navigate to `chrome://extensions`.
 3.  Enable **Developer mode** in the top right corner.
@@ -58,9 +60,9 @@ Interested in contributing to Begoo? That's great! Follow these steps to get the
 
 ## 🛠️ Tech Stack
 
-*   **HTML5, CSS3, JavaScript (ES6+)**
+*   **HTML5, CSS3, JavaScript**
 *   **Chrome Extension APIs (Manifest V3)**
-*   **Web Speech API** for voice recognition
+*   **Google Cloud Speech to Text API** for voice recognition
 
 ## 🤝 Contributing
 
@@ -80,4 +82,4 @@ For other inquiries, you can reach out via email at [realtourani@gmail.com](mail
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
